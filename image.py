@@ -5,7 +5,7 @@ from skimage import io
 import cv2
 
 
-pytesseract.pytesseract.tesseract_cmd ='./.apt/usr/share/tesseract-ocr/4.00/tessdata'
+pytesseract.pytesseract.tesseract_cmd ='/app/.apt/usr/bin/tesseract'
 
 load_dotenv()
 TELEGRAM_API_KEY = os.getenv('TELEGRAM_API_KEY')
